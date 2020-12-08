@@ -1,9 +1,12 @@
+
+# encapsulasi untuk class
+
 class Hero:
     # variable class private
     __jumlah = 0
 
     def __init__(self, nama):
-        self.nama = nama
+        self.__nama = nama
         Hero.__jumlah += 1
 
     # memakai self berlaku untuk objek saja
