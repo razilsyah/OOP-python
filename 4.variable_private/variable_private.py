@@ -14,7 +14,7 @@ class Hero:
 #variable publik di akses dan di rubah
 razil = Hero("razil",100)
 print(razil.__dict__)
-razil.nama = "siganteng"
+razil.nama = "siganteng" # ini malah akan membuat variable baru
 print(razil.__dict__)
 print(razil.nama)
 print(Hero.__dict__)
