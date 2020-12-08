@@ -42,6 +42,7 @@ print("====== getter dan setter __armor =======")
 print(diluc.__dict__)
 print(diluc.armor)
 diluc.armor = 75
+print(diluc.__dict__)
 print(diluc.armor)
 
 # delete armor
