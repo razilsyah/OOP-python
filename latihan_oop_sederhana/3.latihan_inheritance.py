@@ -1,8 +1,8 @@
 class Hero:
     def __init__(self,name):
-        self.__health_pool = [0,100,200,300,400,500]
-        self.__attPower_pool = [0,10,20,30,40,50]
-        self.__armor_pool = [0,1,2,3,4,5]
+        self.health_pool = [0,100,200,300,400,500]
+        self.attPower_pool = [0,10,20,30,40,50]
+        self.armor_pool = [0,1,2,3,4,5]
         self.__name = name
         self.__exp = 0
         self.__level = 0
